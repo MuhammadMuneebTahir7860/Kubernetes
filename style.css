@@ -1,0 +1,279 @@
+nav{
+    background-color: #000000;
+}
+nav ul{
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+nav ul li{
+    margin-left: 8px;
+}
+nav ul li a{
+    color: #ffffffbf !important;
+}
+@media only screen and (max-width: 768px) {
+    #text-logo{
+      display: none;
+    }
+    .video-section-container{
+        display: none;
+    }
+  }
+ /* NavBar End */
+ .second-section-of-header{
+    background-color: #000000;
+    height: auto;
+}
+.second-section-of-nav{
+    color: #ffffff;
+    padding: 40px 0px 25px;
+    font-size: 14px;
+}
+#core-values{
+    color: #ffffff;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #ffffff;
+}
+#core-values:hover{
+    text-decoration: none;
+    border: none;
+}
+/* Header Section End */
+.Footer-of-header{
+    background-color: #303030;
+    height: auto;
+}
+.header-footer-text{
+    padding: 8px 0px 24px;
+    color: #ffffff;
+    text-align: center;
+}
+#Kubernetes-Learning-Button{
+    background-color: #3371E3;
+    padding: 0px 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 223px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+/* Header-Footer-End */
+.Node,.Never-Outgrow{
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Plant-Scale,.Run-K8s-Anywhere{
+    padding-bottom: 60px;
+}
+#plant-scale-heading,#Never-outgrow-heading,#Run-K8s-Anywhere-heading{
+    font-size: 21.6px;
+    padding: 30px 10px 0px;
+}
+#plant-scale-text,#Never-outgrow-text,#Run-K8s-Anywhere-text{
+    font-size: 15px;
+    padding: 0px 10px 0px;
+}
+@media only screen and (max-width: 1000px) {
+    #plantScalePictureContainer,#Never-outgrow-Picture-Container,#Run-K8s-Anywhere-text-Picture-Container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p{
+        text-align: justify;
+    }
+}
+#Node-para-1{
+    padding-top: 60px;
+    padding-bottom: 15px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #222222;
+}
+#Node-para-2{
+    color: #222222;
+    font-size: 15px;
+}
+a{
+    color: #3371E3;
+}
+a:hover{
+    text-decoration: none;
+}
+#Node-Picture{
+    margin-top: 90px;
+}
+/* NODE PlantScale NeverOutGrow Run K8s Anywhere END */
+.video-section{
+    margin-top: 70px;
+    background-image: url("./images/kub_video_banner_homepage.jpg");
+    background-position: center center; 
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: auto;
+}
+#video-section-heading{
+    color: #ffffff;
+    font-size: 32px;
+    font-family: "sans-serif";
+    font-weight: 500px;
+    padding-top: 30px;
+    padding-bottom: 13px;
+}
+#video-section-text{
+    color: #ffffff;
+    font-size: 15px;
+}
+#video-button{
+    width: 55%;
+    height: 65px;
+    background-color: #ffffff;
+    color: #3371E3;
+    font-weight: 400;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.KC-Button{
+    font-size: 17px;
+    background-color: #303030;
+    color: #ffffff;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    .video-section{
+        height: 200px;
+    }
+    .video-section-container{
+        display: none;
+    }
+  }
+/* Video Section End */
+.Kubernetes-Features-main-container{
+    background-color: #f7f7f7;
+    height: auto;
+    padding-bottom: 30px;
+    padding-top: 65px;
+}
+#Kubernetes-Features-image{
+    background-image: url("./images/Capture\ 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+}
+#Kubernetes-Features-heading{
+    text-align: center;
+    font-size: 24px;
+    color: #222222;
+    margin-top: 10px;
+}
+.features-headings{
+    font-size: 21.6px;
+    padding-top: 20px;
+}
+/* Features Container End */
+.case-studies-container{
+    margin-top: 25px;
+}
+#case-studies-heading{
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+}
+.Four-Containers{
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+/* Case Studies End */
+.CNCF-Project-Container{
+    padding-top: 80px;
+}
+#CNCF-Text{
+    font-size: 20px;
+    text-align: center;
+}
+#bg-picture{
+    background-image: url(./images/CNCF.JPG);
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 80px;
+}
+/* CNCF Section END */
+.Subscribe-Main-Section{
+    background-color: #F7F7F7;
+    height: auto;
+    margin-top: 80px;
+}
+.subscribe-container{
+    padding-top: 90px;
+    padding-bottom: 170px;
+}
+.subscribe-container>p{
+    font-size: 20px;
+    text-align: center;
+}
+#subscribe-input-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#subscribe-button{
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #AAAAAA;
+    padding: 5px 18px;
+    color: #f7f7f7;
+}
+@media only screen and (max-width: 768px) {
+    #subscribe-input-button>input,#subscribe-button{
+        width: 100%;
+    }
+    #subscribe-button{
+        margin: 10px 0px;
+    }
+  }
+  /* Subscribe Section End */
+.Last-Main-container{
+    background-color: #303030;
+    padding: 16px;
+    height: auto;
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+.footer-nav:hover,.footer-nav:focus{
+    color: #ffffff;
+}
+/* NavList Row End */
+.social-links-column{
+    margin-top: 10px;
+}
+.social-links-column>img{
+    margin-left: 10px;
+}
+.copyright-text-column{
+    font-size: 10.24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
